@@ -1,0 +1,50 @@
+
+// Automated sprites. Allows to use @include icon-sprite(<title>)
+@import "icon/*.png";
+@include all-icon-sprites; // Defines classes 'icon-<title>'
+
+#layout-page-footer {
+	@include info-panel;
+	@include opacity(0.9);
+    left: 10px;
+    bottom: 10px;
+    height: 62px;
+	width: auto;
+	
+	padding: 14px;
+	
+	.icon {
+		height: 38px;
+		width: 40px;
+	}
+	
+	.icon-info {
+		float: left;
+	}
+	
+	#footertext {
+		float: left;
+		margin-left: 14px;
+		
+		.explain {
+			float: left;
+			margin-left: 14px;
+			width: 115px;
+			font-size: 11px;
+			
+			.icon {
+				@include centered(40px);
+				margin-bottom: 5px;
+			}
+			
+			div {
+				text-align: center;
+			}
+		}
+		
+		.nomargin {
+			margin: 0!important;
+		}
+	}
+
+}

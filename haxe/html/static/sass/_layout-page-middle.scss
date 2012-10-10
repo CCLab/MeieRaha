@@ -1,0 +1,23 @@
+
+$body-color: #f2f2f2;
+
+// Page middle will be taking the whole window. This will allow us to center the container with bubbles with respect to it.
+#layout-page-middle {
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	
+    background: {
+		color: $body-color;
+		image: image-url('background_et.png', $only-path: false, $cache-buster: false);
+		repeat: no-repeat;
+		attachment: scroll;
+		position: center center;
+	}	
+}
+
+#layout-page-middle.en {
+	background-image: image-url('background_en.png', $only-path: false, $cache-buster: false);
+}

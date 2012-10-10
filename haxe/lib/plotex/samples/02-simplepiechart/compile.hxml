@@ -1,0 +1,20 @@
+#javascript
+-cp ../..
+-js simplepiechart.js
+SimplePieChart
+
+#flash
+--next
+-cp ../..
+-swf-header 400:400:30:FFFFFF
+-swf-version 8
+-swf simplepiechart.swf
+-main SimplePieChart
+
+#flash9
+--next
+-cp ../..
+-swf-header 400:400:30:FFFFFF
+-swf-version 9
+-swf simplepiechart9.swf
+-main SimplePieChart

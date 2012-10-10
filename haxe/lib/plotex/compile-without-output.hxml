@@ -1,0 +1,36 @@
+#javascript
+--no-output
+-js test.js
+plotex.js.CanvasPloter
+
+#flash 6
+--next
+--no-output
+--flash-strict
+-swf-version 6
+-swf test6.swf
+plotex.flash.FlashPloter
+
+#flash 7
+--next
+--flash-strict
+--no-output
+-swf-version 7
+-swf test7.swf
+plotex.flash.FlashPloter
+
+#flash 8
+--next
+--flash-strict
+--no-output
+-swf-version 8
+-swf test8.swf
+plotex.flash.FlashPloter
+
+#flash 9
+--next
+--flash-strict
+--no-output
+-swf-version 9
+-swf test9.swf
+plotex.flash.FlashPloter

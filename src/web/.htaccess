@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)/?$ index.php?lang=$1 [QSA,L,R]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)/([A-Z0-9\xa0-\xff].*)/?$ index.php?lang=$1&page=$2 [QSA,L]
+

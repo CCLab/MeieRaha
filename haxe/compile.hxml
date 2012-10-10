@@ -1,0 +1,6 @@
+-cp src
+-cp lib/plotex
+-js html/static/js/MeieRaha.js
+-debug
+-lib jQueryExtern
+-main meieraha.Main

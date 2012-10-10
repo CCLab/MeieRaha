@@ -1,0 +1,5 @@
+<project name="plotex" url="http://code.google.com/p/plotex" license="BSD">
+    <user name="krozalski"/>
+    <description>cross-platform drawing api</description>
+    <version name="0.0.1">Alpha</version>
+</project>

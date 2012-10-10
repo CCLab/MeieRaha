@@ -1,0 +1,21 @@
+#javascript
+-cp ../..
+-js basicanim.js
+BasicAnimation
+
+#flash
+--next
+-cp ../..
+-swf-header 400:400:120:FFFFFF
+-swf-version 6
+-swf basicanim.swf
+-main BasicAnimation
+
+#flash 9
+--next
+-cp ../..
+-swf-header 400:400:120:FFFFFF
+-swf-version 9
+-swf basicanim9.swf
+-main BasicAnimation
+

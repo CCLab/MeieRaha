@@ -1,0 +1,38 @@
+// Reset styles
+@import "compass/reset";
+
+// Includes
+@import "compass/css3/border-radius";
+@import "compass/css3/opacity";
+@import "compass/css3/box-shadow";
+@import "compass/css3/images";
+@import "compass/css3/gradient";
+@import "compass/layout/sticky-footer";
+@import "compass/utilities";
+
+// -- Mixins -------------------------------------------- //
+
+// IE6-compatible centering of a fixed-width block
+@mixin centered($width) {
+	width: $width;
+	left: 50%;
+	margin-left: -$width/2;
+	position: relative;
+}
+
+@mixin vertically-centered($height) {
+	height: $height;
+	top: 50%;
+	margin-top: -$height/2;
+	position: relative;
+}
+
+// Floating info-panel style
+@mixin info-panel {
+	background-color: #fff;
+	color: rgb(77,77,77);
+	z-index: 100;
+	position: fixed;
+	@include border-radius(5px);
+	//@include opacity(0.9); // When Opacity is enabled IE8 fails to process a:hover effects :(
+}

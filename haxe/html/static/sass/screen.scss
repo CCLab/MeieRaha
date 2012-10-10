@@ -1,0 +1,17 @@
+@import "base";
+
+@import "body-config";	// Body and base classes
+@import "layout-page-header";	// Header (page switcher)
+@import "layout-page-middle";	// Middle part (contains the canvas element and background)
+@import "layout-page-language";	// Language switcher (top right corner)
+@import "layout-page-footer";	// Footer (help texts)
+@import "layout-page-extras";	// Comparison bubbles
+@import "layout-page-text";		// Text screen
+@import "app";					// Main app-specific styling
+
+// -- Additional (temporary) elements --------------------------------------------------------- //
+#info-box {
+	@include info-panel;
+	right: 10px; 
+	top: 10px;
+}

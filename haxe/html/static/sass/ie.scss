@@ -1,0 +1,12 @@
+#layout-page-extras #compare-link {
+	padding: 8px 0px;	// Otherwise aligns the image inside incorrectly
+	width: 70px;		// Can't deal with "auto" width
+}
+
+#layout-page-extras {
+	border: none; 	// Can't make the box sized "auto", so just hide the border.
+	
+	#compare-link {
+		border: 1px solid #ccc; // Show this border instead of the parent box's border
+	}
+}

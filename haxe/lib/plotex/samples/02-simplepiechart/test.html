@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Plotex sample - simple piechart</title>
+</head>
+<body onload="init();">
+ 
+<table align="center" border="1">
+	<tr>
+		<th>Canvas Ploter</th>
+		<th>Flash Ploter</th>
+		<th>Flash9 Ploter</th>
+	</tr>
+	<tr>
+		<td>
+			<canvas width="400" height="400" id="canvas" >Canvas not supported</canvas>
+		</td>
+		<td>
+			<object width="400" height="400">
+				<param name="movie" value="simplepiechart.swf" />
+				<param name="flashVars" value="data=50,124,100,120,123,78&x=200&y=200&radius=120" />
+				<embed src="simplepiechart.swf" width="400" height="400"
+					flashvars="data=50,124,100,120,123,78&x=200&y=200&radius=120"
+				</embed>
+			</object>
+		</td>
+		<td>
+			<object width="400" height="400">
+				<param name="movie" value="simplepiechart9.swf" />
+				<param name="flashVars" value="data=50,124,100,120,123,78&x=200&y=200&radius=120" />
+				<embed src="simplepiechart9.swf" width="400" height="400"
+					flashVars="data=50,124,100,120,123,78&x=200&y=200&radius=120"
+				</embed>
+			</object>
+		</td>
+	</tr>
+</table>
+ 
+<div id="haxe:trace"></div>
+<!--[if IE]><script language="javascript" type="text/javascript" src="excanvas.js"></script><![endif]-->
+<script type="text/javascript" src="simplepiechart.js"></script>
+<script type="text/javascript" >
+function init() {
+
+	var chartData = [50, 124, 100, 120, 123, 78];
+	var radius = 120;
+	var x = 200;
+	var y = 200;
+
+	var chart = new SimplePieChart( "canvas" );
+	chart.setData( chartData );
+	chart.setRadius( radius );
+	chart.setPosition( x, y );
+	chart.draw();
+}
+</script>
+</body>
+</html>

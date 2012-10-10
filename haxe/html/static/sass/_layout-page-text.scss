@@ -1,0 +1,79 @@
+#layout-text {
+    width: 600px;
+	height: 100%;
+    margin:60px auto 0;
+    position:relative;
+	line-height: 1.3;
+	text-shadow: #fff 0 1px 0;	
+	color: rgb(102,102,102);
+	background-color: $body-color;
+}
+
+#layout-text .ico {
+	width: 100px;
+	float: left;
+}
+
+#layout-text .text {
+	float: left;	
+	width: 500px;
+}
+
+#layout-text .column {
+	float: left;	
+	width: 300px;
+}
+
+#layout-text .actionlinks {
+	font-size: 21px;
+	padding-top: 16.9px;	
+}
+
+#layout-text #fb-root {
+	padding-top: 8.45px;
+	width: 500px;
+	text-align: center;
+}
+
+#layout-text h1 {
+	font-size: 21px;	
+	padding-top: 16.9px;
+	padding-bottom: 8.45px;	
+	margin-left: -1px;
+}
+
+#layout-text h2 {
+	font-size: 13px;	
+	padding-top: 8.45px;		
+	font-weight: bold;
+}
+
+#layout-text p {
+	padding-top: 8.45px;	
+	padding-bottom: 8.45px;	
+}
+
+#layout-text p.intro {
+	font-weight: bold;
+	padding-top: 8.45px;	
+	padding-bottom: 8.45px;	
+}
+
+#layout-text input {
+	padding: 5px;
+	margin-bottom: 3px;
+	width: 180px;
+}
+
+#layout-text textarea {
+	padding: 5px;
+	margin-bottom: 3px;
+	width: 280px;
+}
+
+#layout-text label {
+	display: block;
+	width: 100px;
+	float: left;
+	padding-top: 7px;
+}

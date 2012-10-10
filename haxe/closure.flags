@@ -1,0 +1,11 @@
+--js html/static/js/jquery.qtip.min.js
+--js html/static/js/raphael.min.js
+--js html/static/js/MeieRaha.js
+--js html/static/js/ComparisonBubbles.js
+--js_output_file html/static/js/MeieRaha.compiled.js
+--compilation_level SIMPLE_OPTIMIZATIONS
+--externs html/static/js/jquery-1.4.3.externs.js
+--externs ../src/web/data/en.0.scales.js
+--externs ../src/web/data/en.2011.rules.js
+--externs ../src/web/data/en.2011.tulud.js
+--externs ../src/web/data/en.2011.kulud.js

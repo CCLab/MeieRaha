@@ -1,0 +1,20 @@
+#javascript
+-cp ../..
+-js shapes.js
+-main Shapes
+
+#flash
+--next
+-cp ../..
+-swf-header 400:400:30:FFFFFF
+-swf-version 8
+-main Shapes
+-swf shapes.swf
+
+#flash9
+--next
+-cp ../..
+-swf-header 400:400:30:FFFFFF
+-swf-version 9
+-main Shapes
+-swf shapes9.swf

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Plotex sample - basic animation</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body onload="BasicAnimation.start('canvas');">
+<table align="center" border="1">
+	<tr>
+		<th>Canvas Ploter</th>
+		<th>Flash Ploter</th>
+		<th>Flash9 Ploter</th>
+	</tr>
+	<tr>
+		<td>
+			<canvas width="400" height="400" id="canvas">Canvas not supported</canvas>
+		</td>
+		<td>
+			<object width="400" height="400">
+				<param name="movie" value="basicanim.swf">
+				<embed src="basicanim.swf" width="400" height="400"></embed>
+			</object>
+		</td>
+		<td>
+			<object width="400" height="400">
+				<param name="movie" value="basicanim9.swf">
+				<embed src="basicanim9.swf" width="400" height="400"></embed>
+			</object>
+		</td>
+	</tr>
+</table>
+ 
+<div id="haxe:trace"></div>
+<!--[if IE]><script language="javascript" type="text/javascript" src="excanvas.js"></script><![endif]-->
+<script type="text/javascript" src="basicanim.js"></script>
+</body>
+</html>
