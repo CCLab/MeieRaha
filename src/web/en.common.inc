@@ -1,14 +1,14 @@
 <?
-$sitetitle = 'Our Money';
+$sitetitle = 'Budget project 2013';
 
 if ($page == "main") {
 	$pagetitle = "Main Page";
 }
 else if ($page == "budget") {
-	$pagetitle = "State budgeting in Estonia";
+	$pagetitle = "The budget";
 }
 else if ($page == "meieraha") {
-	$pagetitle = "What is MeieRaha?";
+	$pagetitle = "The project";
 }
 else if ($page == "data") {
 	$pagetitle = "Data";
@@ -18,6 +18,7 @@ else if ($page == "feedback") {
 }
 
 $reset="Reset";
+$share="Share";
 $compare="Compare";
 
 ?>

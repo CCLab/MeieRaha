@@ -1,19 +1,20 @@
 		<div id="layout-text">
 			<h1>Contact Us!</h1>
-			<p class="intro">Please send your comments! We appreciate your feedback and keep upgrading the site.</p>
-			<p>If you have a dataset you’d like to see on the site, please contact the team directly and we shall arrange the visualisation for you.</p>
-            <div>
+			<p class="intro">We will be happy to receive your feedback. Do not hesitate to contact us in case of questions and suggestions.</p>
                 <div class="column">
 					<h2>Contact</h2>
                     <p>
-                        Hille Hinsberg<br />
-        				Phone: +372 56 473 193<br />
-        				E-mail: <a href="mailto:hille[ätt]praxis.ee">hille[ätt]praxis.ee</a>
+                        Wojciech Białożyt<br />
+			Centrum Cyfrowe Projekt: Polska<br/>
+			Ul. Andersa 29<br/>
+			00-159 Warszawa<br/>
+        				Phone: +48 506 646 189<br />
+        				E-mail: <a href="mailto:wbialozyt@centrumcyfrowe.pl">wbialozyt[@]centrumcyfrowe.pl</a>
                     </p>
                 </div>
                 <div class="column">
                 	<h2>Send a message</h2>
-               		<form id="emf-form" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/Hl9DUsa1dVoTb5aeM" name="emf-form">
+               		<form id="emf-form" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/FMvdbef31pGyiAQU27dWOaY" name="emf-form">
                         <label>Your e-mail</label>
                         <input id="element_0" name="element_0" class="validate[optional,custom[email]]" value="" size="30" type="text" />
                         <label>Title</label>

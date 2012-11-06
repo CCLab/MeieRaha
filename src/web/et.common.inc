@@ -1,23 +1,24 @@
 <?
-$sitetitle = 'Meie Raha';
+$sitetitle = 'Zaprojektuj budżet';
 
 if ($page == "main") {
-	$pagetitle = "Pealeht";
+	$pagetitle = "Projekt budżetu państwa";
 }
 else if ($page == "budget") {
-	$pagetitle = "Mis on riigieelarve";
+	$pagetitle = "Budżet";
 }
 else if ($page == "meieraha") {
-	$pagetitle = "Mis on MeieRaha.eu?";
+	$pagetitle = "O projekcie";
 }
 else if ($page == "data") {
-	$pagetitle = "Andmed";
+	$pagetitle = "Dane";
 }
 else if ($page == "feedback") {
 	$pagetitle = "Kontakt";
 }
 
-$reset="Algseis";
-$compare="Võrdle";
+$reset="Reset";
+$share="Udostępnij";
+$compare="Porównaj";
 
 ?>

@@ -1,52 +1,37 @@
-119	Valitsussektori teenused	622721154	0
-120	Kohalikele omavalitsustele, sh tasandusfond	102565407	119
-122	Maksed pensioni II sambasse	168700000	162
-123	Keskkonnainvesteeringute keskus	36899303	143
-124	Muu, sh valitsuse reservfond	216284515	119
-125	Riigikaitse	323697525	0
-126	Kaitsevägi	183959984	125
-127	Kaitseministeerium	51864731	125
-128	Muu	38321152	125
-129	Avalik kord ja julgeolek	376697078	0
-130	Kriminaalpoliitika, sh vanglad	38670748	129
-131	Kohtud	28119494	129
-132	Sisejulgeolek,  sh Politsei ja piirivalve	139018326	129
-134	Muu, sh investeeringud	121708867	129
-135	Majandus	1024043304	0
-136	Ettevõtluse soodustamine	87342641	135
-137	Elamumajandus ja ehitus	3840000	135
-138	Infoühiskond	23520000	135
-139	Ühistransport	60283395	135
-140	Roads	302792786	135
-141	Põllumajandus, maaelu ja kalandus	311296317	135
-142	Muu	234968165	135
-143	Keskkonnakaitse	241916698	0
-144	Struktuuritoetused, sh KOV veemajandus	156203723	143
-147	Muu	48813672	143
-148	Elamu ja kommunaalmajandus	3844133	0
-149	Tervishoid	855686376	0
-150	Haigekassa riikliku ravikindlustuse kulud	771884000	149
-151	Muu	50779163	149
-152	Kultuur, sport	195789072	0
-153	Kultuur	151449097	152
-154	Sport	12225977	152
-155	Muu, sh religiooni toetamine	32113998	152
-156	Haridus	761382958	0
-157	Üldharidus, sh kohalikele omavalitsustele	248600000	156
-158	Kutseharidus	50915051	156
-159	Kõrgharidus sh riiklik koolitustellimus ülikoolidele	154100000	156
-160	Teadus- ja arendustegevus	163000000	156
-161	Muu	144767907	156
-162	Sotsiaalne kaitse	2162364370	0
-163	Riigikogu liikmete palk	5917859	119
-164	Peretoetused, sh vanemahüvitis	273008600	162
-165	Toimetulekutoetused	27000000	162
-166	Puuetega inimeste toetused	65405976	162
-167	Pensionid	1358590404	162
-168	Muu	269659390	162
-169	Ravikindlustamata isikute vältimatu abi kulud	6921696	149
-170	Kiirabiteenus 	26101517	149
-171	Eraldised Euroopa Liidule	167035132	119
-172	Regionaalareng	130918241	119
-173	Pääste	49179643	129
-174	Kaitseotstarbeline erivarustus ja materjalid	49551658	125
+120	Rolnictwo	6830066	0
+121	Rolnictwo i łowiectwo	6651704	120
+122	Leśnictwo	7278	120
+123	Rybołóstwo i rybactwo	171084	120
+125	Nauka	4933378	0
+130	Administracja	14275634	0
+131	Administracja publiczna	12195090	130
+132	Urzędy naczelnych organów władzy państwowej	2080544	130
+140	Obrona narodowa	22962023	0
+150	Sprawy społeczne	91979719	0
+151	Obowiązkowe ubezpieczenia społeczne	75644893	150
+152	Pomoc społeczna	12887934	150
+153	Pozostałe zadania w zakresie polityki społecznej	3446892	150
+160	Bezpieczeństwo publiczne i ochrona przeciwpożarowa	13050965	0
+170	Wymiar sprawiedliwości	10438615	0
+180	Obsługa długu publiczne	43511902	0
+190	Różne rozliczenia	89726963	0
+200	Szkolnictwo i oświata	14010287	0
+201	Oświata i wychowanie	1724050	200
+202	Szkolnictwo wyższe	12188553	200
+203	Edukacyjna opieka wychowawcza	97684	200
+205	Ochrona zdrowia	6959154	0
+210	Ochrona środowiska	455688	0
+211	Gospodarka komunalna i ochrona środowiska	358446	210
+212	Ogrody botaniczne i zoologiczne	97242	210
+215	Kultura i ochrona dziedzictwa narodowego	1815522	0
+220	Kultura fizyczna	245153	0
+225	Transport i łączność	8292956	0
+230	Gospodarka	5462775	0
+231	Górnictwo	520536	230
+232	Przetwórstwo przemysłowe	789354	230
+233	Handel	615774	230
+234	Hotele i restauracje	21800	230
+235	Turystyka	44424	230
+236	Gospodarka mieszkaniowa	2585916	230
+237	Działalność usługowa	688109	230
+238	Informatyka	196862	230

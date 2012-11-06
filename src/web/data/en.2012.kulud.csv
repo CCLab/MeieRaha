@@ -1,52 +1,37 @@
-119	Government sector services	622721154	0
-120	Local government units, inc leveling fund	102565407	119
-122	Contributions to state pension fund	168700000	162
-123	Environmental Fund 	36899303	143
-124	Other, inc government reserves	216284515	119
-125	Defence	323697525	0
-126	Defence Forces	183959984	125
-127	Ministry of Defence	51864731	125
-128	Other	38321152	125
-129	Public order and safety 	376697078	0
-130	Criminal policy, inc penitentiaries	38670748	129
-131	Court system	28119494	129
-132	Internal security incl Police and Rescue Services	139018326	129
-134	Muu, sh investeeringud	121708867	129
-135	Economic affairs	1024043304	0
-136	Support for SMEs	87342641	135
-137	Housing and community amenities 	3840000	135
-138	ICT in society	23520000	135
-139	Public transport	60283395	135
-140	Roads	302792786	135
-141	Agriculture and fishing	311296317	135
-142	Other	234968165	135
-143	Environmental protection 	241916698	0
-144	Structural support, inc LGU water	156203723	143
-147	Other	48813672	143
-148	Housing and community amenities 	3844133	0
-149	Health care	855686376	0
-150	Health insurance expenditures	771884000	149
-151	Other	50779163	149
-152	Culture and sports	195789072	0
-153	Culture	151449097	152
-154	Sport	12225977	152
-155	Other, inc religion support	32113998	152
-156	Education	761382958	0
-157	General education, inc LGU	248600000	156
-158	Vocational education	50915051	156
-159	Higher education	154100000	156
-160	Research and development	163000000	156
-161	Other	144767907	156
-162	Social care	2162364370	0
-163	Salaries for MPs	5917859	119
-164	Family benefits	273008600	162
-165	Social benefits	27000000	162
-166	Benefits for the disabled	65405976	162
-167	Pensionid	1358590404	162
-168	Other	269659390	162
-169	Emergency services for uninsured	6921696	149
-170	Medical emergency service	26101517	149
-171	EU payments	167035132	119
-172	Regional development	130918241	119
-173	Emergency services	49179643	129
-174	Defence equipment and materials	49551658	125
+120	'Agriculture	6830066	0
+121	 "Agriculture and hunting"	6651704	120
+122	Forestry	7278	120
+123	Fishing	171084	120
+125	Science	4933378	0
+130	Administration	14275634	0
+131	Public administration	12195090	130
+132	State institution offices	2080544	130
+140	Defense	22962023	0
+150	Social affairs	91979719	0
+151	Compulsory social insurance	75644893	150
+152	Social assistance	12887934	150
+153	Remaining social policy tasks	3446892	150
+160	 "Public safety and fire precautions"	13050965	0
+170	Justice	10438615	0
+180	 "Management of public debt"	43511902	0
+190	 "Various accounting"	89726963	0
+200	Education and universities	14010287	0
+201	Eductaion	1724050	200
+202	Universities	12188553	200
+203	Educational care	97684	200
+205	Healthcare	6959154	0
+210	Environmental protection	455688	0
+211	Municipal economy and environmental protection	358446	210
+212	Botanical gardens and zoos	97242	210
+215	Culture and national heritage protection	1815522	0
+220	Physical education	245153	0
+225	Transport and communication infrastructure	8292956	0
+230	Economy	5462775	0
+231	Mining	520536	230
+232	Industrial processing	789354	230
+233	Trade	615774	230
+234	Restaurants and hotels	21800	230
+235	Tourism	44424	230
+236	Housing	2585916	230
+237	Services	688109	230
+238	IT	196862	230

@@ -1,35 +1,27 @@
 		<div id="layout-text">
-			<h1>What is Meie Raha?</h1>
-			<p class="intro">Annual state budget is a complicated thing. The official Budget Bill is made up of long tables  that do little to explain how the taxpayers' money is spent. Meie Raha &mdash; Estonian for "Our Money" &mdash; shows  major  income and expenditure  articles  at a glance, structured by government functions.</p>
+			<h1>About the project</h1>
+			<p class="intro">The state budget bill must be subjected to an extensive public debate. Our visualization helps to understand the complexity of the state budget ahead of the parliamentary discussions over the 2013 draft.</p>
+			<p>We hope that the “Design your budget” will contribute to transparency of the public debate over the public finances issues.</p>
           <div>
             	<div class="ico">
-                	<img src="img/ico-mr.png" alt="meieraha" />
+                	<img src="static/img/ico-mr.png" alt="meieraha" />
                 </div>
                 <div class="text">
             		<h2>Interactive visualization</h2>
-					<p>The visualization shows two sides of the equation — income (mostly taxes) and expenditure by category. The size of bubbles is proportional to the size of budget items. This simple visual helps to compare the sums. One can click on a bubble to see cost articles within each budget heading. Or try dragging the outline of a bubble to see how manipulating different sums results in the balance of the budget. Ideally, every budget needs to be balanced, so the changes you make on the spending sides should be balanced on the income side!</p>
+					<p>Each bubble represents the respective performance budget category. By dragging the bubbles edges, one can decide on budget priorities, balance income vs. expenditures and design his own budget.</p>
+					<p>Everyone is encouraged to share his own draft budget in social media.</p>
                 </div>
             	<div class="clear"> </div>
             </div>
             <div>
             	<div class="ico">
-                	 <img src="img/ico-garage48.png" alt="garage48" style="opacity:0.6" />
+                	 <img src="static/img/ico-garage48.png" alt="garage48" style="opacity:0.6" />
                 </div>
                 <div class="text">
            			<h2>The team</h2>
-					<p>Meie Raha was created by a team of volunteers during 48 hours at a local hackathon Garage48 and has been in development ever since. The project is non-profit and has not been funded by any political group. The Garage48 team consisted of: Rene Lasseron, Tanel Kärp, Helena Rebane, Konstantin Tretjakov, Martin Grüner, Reigo Kinusar, Hille Hinsberg and Hegle Sarapuu. Expert knowledge on budgeting was offered by prof. Paul Tammert and ex. member of the parliament's finance committee Toomas Trapido.</p>
+					<p>“Design your budget” is part of the Open Government project run by Centrum Cyfrowe Projekt: Polska – <a href="http://www.centrumcyfrowe.pl/" target="_blank">>www.centrumcyfrowe.pl</p>.
+					<p>We based our visualization on Meie Raha software, created for visualizing Estonian budget, during Garage48 hackathon. The project is non-profit and has not been funded by any political group. The Garage48 team consisted of: Rene Lasseron, Tanel Kärp, Helena Rebane, Konstantin Tretjakov, Martin Grüner, Reigo Kinusar, Hille Hinsberg and Hegle Sarapuu.</p>
                 </div>
                 <div class="clear"> </div>
             </div>
-            <div>
-            	<div class="ico"> &nbsp; </div>
-                <div class="text">
-           			<h2>Meie Raha on Facebook</h2>
-					<!-- FB like button -->
-            		<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=107879382636113&amp;xfbml=1"></script><fb:like href="http://www.facebook.com/MeieRaha" send="true" width="500" show_faces="true" font=""></fb:like>
-                </div>
-                <div class="clear"> </div>
-            </div>			
-            
-                       
-		</div><!--/#layout-text-->
+            <!--/#layout-text-->

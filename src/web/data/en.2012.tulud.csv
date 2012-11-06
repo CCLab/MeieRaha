@@ -1,22 +1,14 @@
-49	Value added tax	1433096027	0
-50	Income tax	474090619	0
-51	Social tax	1923903442	0
-52	Excise duties	777404000	0
-54	Non-taxes	1442417899	0
-56	Personal income tax	253457722	50
-57	Corporate income tax	220632897	50
-58	Social tax	1923903442	51
-60	Alcohol excise duty	193000000	52
-61	Excise duty on tobacco	169000000	52
-62	Fuel excise duty	382004000	52
-63	Excise duty on electricity	33300000	52
-64	Excise duty on packaging	100000	52
-65	Gambling tax	19800000	72
-66	Customs duties	33200000	72
-67	Sales of goods and services	114308709	54
-68	Subsidies, inc CO2 quotas sales	1051720929	54
-69	Sales of material and immaterial assets	21145811	54
-70	Income on assets	201029835	54
-71	Other income	54212615	54
-72	Other taxes	56800000	0
-73	Raskeveokimaks	3800000	72
+49	Taxes	266982697	0
+58	Value added tax	126414509	49
+59	Personal income tax	42936000	49
+60	Personal income tax	29638450	49
+61	Excise duties	64543730	49
+62	Gambling and games tax	1250000	49
+63	Tonnage tax	8	49
+64	Mining tax	2200000	49
+51	Dividends	5860010	0
+52	National Bank gains	401900	0
+54	Fees, fines, other non-taxes	20160479	0
+56	Tariffs and duties	2001000	0
+57	Local self-govenrment income	2383262	0
+58	EU and nonrefundable	1595952	0

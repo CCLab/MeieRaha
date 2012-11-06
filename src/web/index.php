@@ -4,13 +4,13 @@ session_start();
 if (isset($_SESSION['lang'])) $lang = $_SESSION['lang'];
 else $lang = 'et';
 if (isset($_GET['lang'])) $lang = $_GET['lang'];
-if (!in_array($lang, array("en","et"))) $lang = "et";
+if (!in_array($lang, array("en","et","pl"))) $lang = "pl";
 $_SESSION['lang'] = $lang;
 
 if (isset($_SESSION['year'])) $year = $_SESSION['year'];
 else $year = '2012';
 if (isset($_GET['year'])) $year = $_GET['year'];
-if (!in_array($year, array("2011", "2012"))) $year = "2011";
+if (!in_array($year, array("2011", "2012", "2013"))) $year = "2013";
 $year = intval($year);
 $_SESSION['year'] = $year;
 
@@ -21,13 +21,15 @@ $is_app_page = ($page == 'main');
 
 $active = array("main" => "", "budget" => "", "meieraha" => "", "data" => "", "feedback" => "");
 $active[$page] = "active";
-$lang_active = array("et" => "", "en" => "");
+$lang_active = array("et" => "", "en" => "", "pl"=>"");
 $lang_active[$lang] = "active";
 
 if ($year == '2011') $date_published = '27.02.2011';
 else if ($year == '2012') $date_published = '01.10.2012';
+else if ($year == '2012') $date_published = '27.09.2012';
 
 include($lang . ".common.inc");
+
 
 ?>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?=$lang?>" lang="<?=$lang?>">
@@ -37,6 +39,15 @@ include($lang . ".common.inc");
 	<meta name="language" content="<?=$lang?>" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
+
+        <!-- Facebook Open Graph data -->
+	<meta property="og:title" content="Zaprojektuj sw&#xf3;j budzet" />
+	<meta property="og:type" content="non_profit" />
+	<meta property="og:url" content="http://zaprojektuj.otwartybudzet.pl/" />
+	<meta property="og:image" 
+	  content="http://zaprojektuj.otwartybudzet.pl/static/img/ccpp_logo_male.jpg" />
+	<meta property="og:site_name" content="Otwarty Bud&#x17c;et" />
+	<meta property="fb:admins" content="1164067269" />
 	
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="static/img/favicon.ico" />
@@ -99,8 +110,8 @@ include($lang . ".common.inc");
 	<script src="static/js/jquery-ui-1.8.13.draggable.min.js"></script>
 	<script src="data/<?=$lang?>.0.scales.js"></script>
 	<script src="data/<?=$lang?>.<?=$year?>.rules.js"></script>
-	<script src="data/<?=$lang?>.<?=$year?>.tulud.js"></script>
-	<script src="data/<?=$lang?>.<?=$year?>.kulud.js"></script>
+	<script src="cc/data/<?=$lang?>.<?=$year?>.tulud.js"></script>
+	<script src="cc/data/<?=$lang?>.<?=$year?>.kulud.js"></script>
 	<script src="static/js/MeieRaha.compiled.js"></script>
 	
 	<? } ?>
@@ -117,10 +128,13 @@ include($lang . ".common.inc");
 			<div id="AppContainer" onselectstart="return false;">
 				<canvas id="AppCanvas" width="1000" height="550"></canvas>
 				<div id="BalanceDisplay" zindex="1000">
-					<div id="BudgetValue">0.0M</div>
+					<div id="BudgetValue">0,0 mld</div>
 					<div id="ScaleImage" class="norm"></div>
-					<div class="reset">
+  					<div class="reset">
 						<a href="#" id="ResetButton"><?=$reset?></a>
+					</div>
+ 					<div class="share">
+						<strong><a href="#" id="ShareButton"><?=$share?></a></strong>
 					</div>
 				</div>
 				<div id="RulesDisplay" zindex="1000">
@@ -131,7 +145,7 @@ include($lang . ".common.inc");
 		<? } ?>
 
       <div id="layout-page-language">
-        	<a href="?lang=et&page=<?=$page?>" class="<?=$lang_active['et']?>">EST</a>
+        	<a href="?lang=et&page=<?=$page?>" class="<?=$lang_active['pl']?>">PL</a>
         	<a href="?lang=en&page=<?=$page?>" class="<?=$lang_active['en']?>">ENG</a>
       </div>
 
@@ -153,12 +167,43 @@ include($lang . ".common.inc");
 	  <? } else { include($lang . ".layout-text." . $page . ".inc"); } ?>
 	</div>
 
+   <div id="share-address-field" style="text-align:center;position:absolute; top:80px; left:430px;"></div>
+
   <script type="text/javascript">
+     function jsonify () {
+       var bubblesArray = new Array();
+       var h,i;
+       var http = new XMLHttpRequest();
+
+       http.onreadystatechange = function() {
+         if (http.readyState == 4) {
+           var response = http.responseText;
+           document.getElementById("share-address-field").innerHTML="<div style=\"padding:1ex;background:white;\"><div style=\"margin-bottom:0.8ex;\"><p><strong>Adres Twojego projektu budżetu:<strong></p><p><a href=\"/cc/load/"+response+"\">http://zaprojektuj.otwartybudzet.pl/cc/load/"+response+"/</a></div><iframe src=\"http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fzaprojektuj.otwartybudzet.pl%2Fcc%2Fload%2F"+response+"%2F&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=127749530600754\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:450px; height:21px;\" allowTransparency=\"true\"></iframe></div>";
+         };
+       };
+
+       h = meieraha.js.Base.instance.bubbleDisplay.bubbleRegistry.bubbles.h
+       for (i in h) {
+
+         bubblesArray.push(new Array(h[i].id,h[i]._value ))
+       }
+
+       result = 'bubbles='+escape(JSON.stringify(bubblesArray, null, true));
+
+       http.open("POST", "/cc/save/", true);
+       http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+       http.setRequestHeader("Content-length", result.length);
+       http.setRequestHeader("Connection", "close");
+       http.send(result);
+     }
+  
+  </script>
+</div>
+<script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-21692538-1']);
-  _gaq.push(['_setDomainName', 'none']);
-  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_setAccount', 'UA-35704637-1']);
+  _gaq.push(['_setDomainName', 'otwartybudzet.pl']);
   _gaq.push(['_trackPageview']);
 
   (function() {
@@ -167,7 +212,6 @@ include($lang . ".common.inc");
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
-  </script>
-
+</script>
 </body>
 </html>

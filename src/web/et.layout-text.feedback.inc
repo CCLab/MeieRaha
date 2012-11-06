@@ -1,25 +1,28 @@
 		<div id="layout-text">
-			<h1>Võta meiega ühendust!</h1>
-			<p class="intro">Kas Sul on ettepanekuid, tagasisidet või küsimusi Meie Raha kohta? Anna meile teada ja teeme koos Meie Raha paremaks!</p>
+			<h1>Skontaktuj się z nami!</h1>
+			<p class="intro">Bardzo zależy nam na Waszych opiniach o naszej wizualizacji &bdquo;Zaprojektuj swój budżet&rdquo;. Jeśli macie sugestie co do dalszego rozwoju tej strony, dajcie znać!</p>
             <div>
                 <div class="column">
-					<h2>Kontaktisik</h2>
+					<h2>Kontak</h2>
                     <p>
-                        Hille Hinsberg<br />
-        				Tel: +372 56 473 193<br />
-        				E-mail: <a href="mailto:hille[ätt]praxis.ee">hille[ätt]praxis.ee</a>
+                        Wojciech Białożyt<br />
+			Centrum Cyfrowe Projekt: Polska <br />
+			Ul. Andersa 29<br />
+			00-159 Warszawa<br />
+        				Tel: +48 506 646 189<br />
+        				E-mail: <a href="mailto:wbialozyt@centrumcyfrowe.pl">wbialozyt[@]centrumcyfrowe.pl</a>
                     </p>
                 </div>
                 <div class="column">
-                	<h2>Saada kiri</h2>
-               		<form id="emf-form" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/Hl9DUsa1dVoTb5aeM" name="emf-form">
-                        <label>Sinu e-mail</label>
+                	<h2>Wyślij nam wiadomość</h2>
+               		<form id="emf-form" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/FMvdbef31pGyiAQU27dWOaY" name="emf-form">
+                        <label>Twój e-mail</label>
                         <input id="element_0" name="element_0" class="validate[optional,custom[email]]" value="" size="30" type="text" />
-                        <label>Pealkiri</label>
+                        <label>Temat</label>
                         <input id="element_1" name="element_1" value="" size="30" class="validate[optional]" type="text" />
                         <textarea id="element_2" name="element_2" cols="40" rows="5" class="validate[optional]"></textarea>
                         <input name="element_counts" value="3" type="hidden" /> <input name="embed" value="forms" type="hidden" />
-                        <input value="Saada" type="submit" />
+                        <input value="Wyślij" type="submit" />
                     </form>
                 </div>
 				<div class="clear"> </div>

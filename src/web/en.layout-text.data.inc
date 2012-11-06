@@ -1,54 +1,18 @@
 		<div id="layout-text">
-			<h1>Machine-Readable Data</h1>
-			<p class="intro">The data behind Meie Raha was scraped from various resources, tables and PDF documents. The following files contain the summarization of this data on a cleaned up, machine-readable format.</p>
-            <div>
-                <div class="column">
-                    <p class="actionlinks">
-                        → <a href="data/<?=$lang?>.<?=$year?>.tulud.csv">tulud.csv</a>
-                    </p>
-                    <p>
-                        Name: <strong>Income</strong> <br />
-                        Description: <strong>The Estonian State Budget income by taxes and sums.</strong> <br />
-                        Published: <strong><?=$date_published?></strong> <br />
-                        Source: <strong>Meieraha.eu</strong>
-                    </p>
-                </div>
-                <div class="column">
-                    <p class="actionlinks">
-                        → <a href="data/<?=$lang?>.<?=$year?>.kulud.csv">kulud.csv</a>
-                    </p>
-                    <p>
-                        Name: <strong>Expenditures</strong> <br />
-                        Description: <strong>The Estonian State Budget expenditure by categories and sums.</strong> <br />
-                        Published: <strong><?=$date_published?></strong> <br />
-                        Source: <strong>Meieraha.eu</strong>
-                    </p>
-                </div>
-				<div class="clear"> </div>
-            </div>  
-            <br />    
-            <div>
-            	<div class="ico">
-                	<img src="img/ico-licence.png" alt="licence" />
-                </div>
-                <div class="text">            
-                    <h2>Open Data Commons Attribution License</h2>
-                    <p>
-                        Income and Expenditure databases are made available under the Open Database License: <a href="http://opendatacommons.org/licenses/odbl/" target="_blank">http://opendatacommons.org/licenses/odbl/</a>. Any rights in individual contents of the database are licensed under the Database Contents License: <a href="http://opendatacommons.org/licenses/dbcl/" target="_blank">http://opendatacommons.org/licenses/dbcl/</a>
-                    </p>
-                </div>
+			<h1>Data</h1>
+			<p class="intro">The visualization has been based on the governmental 2013 draft state budget released on September 27, 2012. This draft will be subject to changes throughout the parliamentary works that are scheduled to be terminated in January 2013.</p>
+		</div>
+		<div id="layout-text">
+			<h2>Images</h2>
+			<p>We used following Creative Commons-licensed Flickr images as illustrations to our data:</p>
+			<ul style="padding-left:0.5ex">
+				<li>&bull; <a href=http://www.flickr.com/photos/agecombahia/8043446197/" target="_blank">Hospiral, fot. Manu Dias/SECOM</a> &mdash; CC BY-NC-SA agecombahia / flickr.com</li>
+				<li>&bull; <a href="http://www.flickr.com/photos/14170642@N02/3703483855/" target="_blank">Warsaw, fot. Juanelos</a> &mdash; CC BY-NC-ND juanelos / flickr.com<li>
+				<li>&bull; <a href="http://www.flickr.com/photos/epsos/5394616925/" target="_blank">Money, fot. epSos.de</a> &mdash; CC BY epSos.de / flickr.com</li>
+				<li>&bull; <a href="http://www.flickr.com/photos/brongracz/5568415329/" target="_blank">Copernicus Science Centre, fot. Bronek Gracz</a> &mdash; CC BY brongracz / flickr.com</li>
+				<li>&bull; <a href="http://www.flickr.com/photos/iks_berto/534467208/" target="_blank">Papal train in Wadowice, fot magro_kr</a> &mdash; CC BY ND magro_kr / flickr.com</li>
+				<li>&bull; <a href="http://www.flickr.com/photos/basi_16816/2040617876/" target="_blank">2 zloty coin, fot. Bastian K.</a> &mdash; CC BY-NC-SA basi_16816 / flickr.com</li>
+			</ul>	
             	<div class="clear"> </div>    
-            <div>
-            	<div class="ico">
-                	<img src="img/ico-feedback.png" alt="feedback" />
-                </div>
-                <div class="text"> 
-            		<h2>Feedback</h2>
-					<p>If you are using our collected and shared data for any purpose, <a href="feedback.html">please do let us know</a>.</p>
-                </div>
-            	<div class="clear"> </div> 
-            </div>     
-            
-                   
-                       
-		</div><!--/#layout-text-->
+		<!--/#layout-text-->
+

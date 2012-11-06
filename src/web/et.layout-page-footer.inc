@@ -4,25 +4,25 @@
             	<div class="explain nomargin">
                 	<div class="icon icon-hover"></div>
                     <div>
-						Liigu hiirega mullile lugemaks selgitust
+						Wskaż kursorem pozycję budżetową, żeby zobaczyć więcej szczegółów
                     </div>
                 </div>
                 <div class="explain">
                 	<div class="icon icon-click"></div>
                     <div>
-						Kliki mullil et näha summasid täpsemalt
+						Kliknij w koło, żeby zobaczyć zadania pozycji budżetowej
                     </div>                
                 </div>
                 <div class="explain">
                 	<div class="icon icon-move"></div>
                     <div>
-						Tiri mulle ringi et neid üksteisega võrrelda
+                                                Przesuń pozycję budżetową
                     </div>                
                 </div>
                 <div class="explain">
                 	<div class="icon icon-resize"></div>
                     <div>
-						Tiri mulli servast, et koostada oma eelarve
+						Zmień wielkość udziału w budżecie
                     </div>                
                 </div>
             </div>
