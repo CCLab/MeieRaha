@@ -1,0 +1,2 @@
+export PYTHONPATH=/var/www/zaprojektuj-ob/cc
+export DJANGO_SETTINGS_MODULE=cc.settings
